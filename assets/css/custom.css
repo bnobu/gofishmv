@@ -2,7 +2,7 @@
 
 header.page-header {
   background: none !important;          /* kill all backgrounds */
-  background-color: #28a0cf !important; /* solid blue */
+  background-color: #28a1cf !important; /* solid blue */
   background-image: none !important;    /* no gradients */
   color: #fff !important;
   padding: 2rem 0 !important;
@@ -18,7 +18,7 @@ header.page-header::after {
 
 /* Optional: style nav bar to fit the blue header */
 nav.site-nav {
-  background-color: #157878 !important;
+  background-color: #28a1cf !important;
   padding: 1rem 0;
   text-align: center;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
