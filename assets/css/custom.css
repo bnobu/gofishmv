@@ -1,0 +1,26 @@
+/* Kill Cayman gradient */
+.page-header {
+  background-color: #157878;
+  color: #fff;
+  padding: 2rem 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Nav bar styling */
+.site-nav {
+  background-color: #f8f9fa;
+  padding: 10px 20px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.site-nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+}
+
+.site-nav a:hover {
+  text-decoration: underline;
+}
