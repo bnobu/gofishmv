@@ -1,27 +1,37 @@
-/* Kill Cayman gradient */
-.page-header {
-  background-color: #157878 !important;
-  background-image: none !important;
+/* Full override for Cayman page-header to solid blue */
+
+header.page-header {
+  background: none !important;          /* kill all backgrounds */
+  background-color: #157878 !important; /* solid blue */
+  background-image: none !important;    /* no gradients */
   color: #fff !important;
   padding: 2rem 0 !important;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1) !important;
+  border-bottom: none !important;       /* remove any border if exists */
 }
 
-/* Nav bar styling */
-.site-nav {
-  background-color: #f8f9fa;
-  padding: 10px 20px;
+/* Remove pseudo-elements that add gradients or overlays */
+header.page-header::before,
+header.page-header::after {
+  content: none !important;
+}
+
+/* Optional: style nav bar to fit the blue header */
+nav.site-nav {
+  background-color: #157878 !important;
+  padding: 1rem 0;
   text-align: center;
-  border-bottom: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-.site-nav a {
-  margin: 0 15px;
+nav.site-nav a {
+  color: #fff !important;
+  margin: 0 1rem;
   text-decoration: none;
-  color: #333;
   font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
 }
 
-.site-nav a:hover {
+nav.site-nav a:hover {
   text-decoration: underline;
 }
