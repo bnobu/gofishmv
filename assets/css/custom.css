@@ -1,9 +1,10 @@
 /* Kill Cayman gradient */
 .page-header {
-  background-color: #157878;
-  color: #fff;
-  padding: 2rem 0;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #157878 !important;
+  background-image: none !important;
+  color: #fff !important;
+  padding: 2rem 0 !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
 }
 
 /* Nav bar styling */
