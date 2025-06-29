@@ -1,5 +1,7 @@
 /* Full override for Cayman page-header to solid blue */
 
+
+
 /* Remove pseudo-elements that add gradients or overlays */
 header.page-header::before,
 header.page-header::after {
@@ -31,11 +33,13 @@ header.page-header {
   justify-content: center;  /* center horizontally */
   align-items: center;      /* center vertically */
   flex-direction: column;   /* stack nav and buttons */
-  height: 100px;            /* set a fixed height if needed */
-  background-color: #28a1cf !important;
-  color: white;
+  height: 150px;            /* set a fixed height if needed */
+  background: none !important;          /* kill all backgrounds */
+  background-color: #28a1cf !important; /* solid blue */
+  background-image: none !important; 
+  color: white !important;
   padding: 0 !important;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: none !important;
 }
 
 nav.site-nav {
