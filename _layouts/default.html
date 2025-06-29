@@ -26,7 +26,14 @@
     <!-- Custom Nav Bar End -->
 
     <header class="page-header" role="banner">
-   {% if site.github.is_project_page %}
+      <nav class="site-nav">
+        <a href="{{ '/' | relative_url }}">HOME</a>
+        <a href="{{ '/game' | relative_url }}">GAME</a>
+        <a href="{{ '/merch' | relative_url }}">MERCH</a>
+        <a href="{{ '/contact' | relative_url }}">CONTACT</a>
+      </nav>
+
+      {% if site.github.is_project_page %}
       {% endif %}
       {% if site.show_downloads %}
         <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>

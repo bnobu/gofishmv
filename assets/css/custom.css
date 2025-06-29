@@ -1,15 +1,5 @@
 /* Full override for Cayman page-header to solid blue */
 
-header.page-header {
-  background: none !important;          /* kill all backgrounds */
-  background-color: #28a1cf !important; /* solid blue */
-  background-image: none !important;    /* no gradients */
-  color: #fff !important;
-  padding: 2rem 0 !important;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1) !important;
-  border-bottom: none !important;       /* remove any border if exists */
-}
-
 /* Remove pseudo-elements that add gradients or overlays */
 header.page-header::before,
 header.page-header::after {
@@ -36,27 +26,25 @@ nav.site-nav a:hover {
   text-decoration: underline;
 } */
 
+header.page-header {
+  display: flex;
+  justify-content: center;  /* center horizontally */
+  align-items: center;      /* center vertically */
+  flex-direction: column;   /* stack nav and buttons */
+  height: 100px;            /* set a fixed height if needed */
+  background-color: #28a1cf !important;
+  color: white;
+  padding: 0 !important;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
 
 nav.site-nav {
-  background-color: #28a1cf !important;
-  padding: 1rem 0;
-  text-align: center;  /* Optional: for fallback */
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-
   display: flex;
-  justify-content: center;  /* Center the links horizontally */
-  align-items: center;      /* Optional: if you want to center vertically too */
-  width: 100%;              /* Make sure the nav takes up the full width */
+  gap: 2rem;
 }
 
 nav.site-nav a {
   color: #fff !important;
-  margin: 0 1rem;
-  text-decoration: none;
   font-weight: 600;
-  font-family: 'Open Sans', sans-serif;
-}
-
-nav.site-nav a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
