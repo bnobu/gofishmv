@@ -5,7 +5,7 @@ header.page-header {
   background-color: #28a1cf !important; /* solid blue */
   background-image: none !important;    /* no gradients */
   color: #fff !important;
-  padding: 1rem 0 !important;
+  padding: 2rem 0 !important;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1) !important;
   border-bottom: none !important;       /* remove any border if exists */
 }
