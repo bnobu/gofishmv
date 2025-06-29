@@ -16,12 +16,37 @@ header.page-header::after {
   content: none !important;
 }
 
-/* Optional: style nav bar to fit the blue header */
+/* Optional: style nav bar to fit the blue header
 nav.site-nav {
   background-color: #28a1cf !important;
   padding: 1rem 0;
   text-align: center;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+nav.site-nav a {
+  color: #fff !important;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+}
+
+nav.site-nav a:hover {
+  text-decoration: underline;
+} */
+
+
+nav.site-nav {
+  background-color: #28a1cf !important;
+  padding: 1rem 0;
+  text-align: center;  /* Optional: for fallback */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+
+  display: flex;
+  justify-content: center;  /* Center the links horizontally */
+  align-items: center;      /* Optional: if you want to center vertically too */
+  width: 100%;              /* Make sure the nav takes up the full width */
 }
 
 nav.site-nav a {
