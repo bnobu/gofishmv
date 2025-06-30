@@ -55,7 +55,7 @@ nav.site-nav a {
 
 .fish-image {
   width: 100%;
-  height: 1080px; /* or use 50vh, or whatever fits your design */
+  height: 50vh; /* or use 50vh, or whatever fits your design */
   background-image: url('/GoFish_Saltwater_bkgd.jpg');
   background-size: cover;         /* fills the container */
   background-position: center;    /* crops to the center */
