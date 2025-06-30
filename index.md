@@ -1,1 +1,0 @@
-![The Go Fish MV saltwater fish card deck](/box.jpeg)

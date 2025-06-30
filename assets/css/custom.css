@@ -52,3 +52,12 @@ nav.site-nav a {
   font-weight: 600;
   text-decoration: none;
 }
+
+.fish-image {
+  width: 100%;
+  height: 400px; /* or use 50vh, or whatever fits your design */
+  background-image: url('/GoFish_Saltwater_bkgd.jpg');
+  background-size: cover;         /* fills the container */
+  background-position: center;    /* crops to the center */
+  background-repeat: no-repeat;
+}
