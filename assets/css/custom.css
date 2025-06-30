@@ -65,3 +65,10 @@ nav.site-nav a {
   object-position: center;   /* always keep center in view */
   display: block;            /* remove unwanted spacing */
 }
+
+
+.main-content {
+  margin: 2rem auto;
+  max-width: 40rem;
+  text-align: center;
+}
