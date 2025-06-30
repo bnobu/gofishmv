@@ -53,11 +53,15 @@ nav.site-nav a {
   text-decoration: none;
 }
 
-.fish-image {
+.hero-wrapper {
   width: 100%;
-  height: 50vh; /* or use 50vh, or whatever fits your design */
-  background-image: url('/GoFish_Saltwater_bkgd.jpg');
-  background-size: cover;         /* fills the container */
-  background-position: center;    /* crops to the center */
-  background-repeat: no-repeat;
+  overflow: hidden; /* hide cropped sides on small screens */
+}
+
+.hero-img {
+  width: 100%;
+  height: auto; /* don't restrict height! */
+  object-fit: cover;         /* crop if needed */
+  object-position: center;   /* always keep center in view */
+  display: block;            /* remove unwanted spacing */
 }
