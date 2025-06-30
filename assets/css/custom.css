@@ -72,3 +72,12 @@ nav.site-nav a {
   max-width: 40rem;
   text-align: center;
 }
+
+.main-content h1,
+.main-content h2,
+.main-content h3,
+.main-content h4,
+.main-content h5,
+.main-content h6 {
+  color: #28a1cf; /* replace with your desired color */
+}
