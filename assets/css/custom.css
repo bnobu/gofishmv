@@ -44,7 +44,7 @@ header.page-header {
 
 nav.site-nav {
   display: flex;
-  gap: 4rem;
+  gap: 2rem;
 }
 
 nav.site-nav a {
@@ -52,14 +52,19 @@ nav.site-nav a {
   font-weight: 600;
   text-decoration: none;
 }
-.hero-image {
+
+.hero-wrapper {
   width: 100%;
-  height: 1080px; /* or 60vh, depending on design */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  overflow: hidden; /* hide cropped sides on small screens */
 }
 
+.hero-img {
+  width: 100%;
+  height: auto; /* don't restrict height! */
+  object-fit: cover;         /* crop if needed */
+  object-position: center;   /* always keep center in view */
+  display: block;            /* remove unwanted spacing */
+}
 
 
 .main-content {
