@@ -52,19 +52,14 @@ nav.site-nav a {
   font-weight: 600;
   text-decoration: none;
 }
-
-.hero-wrapper {
+.hero-image {
   width: 100%;
-  overflow: hidden; /* hide cropped sides on small screens */
+  height: 1080px; /* or 60vh, depending on design */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.hero-img {
-  width: 100%;
-  height: auto; /* don't restrict height! */
-  object-fit: cover;         /* crop if needed */
-  object-position: center;   /* always keep center in view */
-  display: block;            /* remove unwanted spacing */
-}
 
 
 .main-content {

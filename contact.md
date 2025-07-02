@@ -1,3 +1,6 @@
+---
+hero:
+---
 # Contact us
 Find us at the [Chilmark Flea](https://www.facebook.com/chilmarkflea) every Saturday this summer.
 

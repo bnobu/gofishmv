@@ -33,9 +33,13 @@
       {% endif %}
     </header>
 
-    <div class="hero-wrapper">
-      <img class="hero-img" src="/GoFish_Saltwater_bkgd.jpg" alt="Fish background">
+    <div class="hero-image"
+        style="background-image: url({{ page.hero | default: '/GoFish_Saltwater_bkgd.jpg' | relative_url }});">
     </div>
+
+
+
+
 
 
     <main id="content" class="main-content" role="main">
