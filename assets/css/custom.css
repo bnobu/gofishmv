@@ -82,11 +82,13 @@ nav.site-nav a {
   color: #28a1cf; /* replace with your desired color */
 }
 
-.full-width-img {
-  width: 100vw;
+img.full-bleed {
+  width: 100vw;                  /* take full screen width */
   max-width: 100vw;
-  margin-left: calc(-50vw + 50%);
-  display: block;
   height: auto;
+  margin-left: calc(-50vw + 50%); /* center image that breaks container */
+  display: block;
   object-fit: cover;
+  object-position: center;
 }
+
