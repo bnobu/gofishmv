@@ -9,18 +9,16 @@ layout: default
 A card game celebrating the diverse marine ecosystems and fish species of Martha's Vineyard
 
 
-<div class="hero-wrapper">
-  <img class="hero-img" src="GoFish_fullimage_deck.jpg" alt="Deck image">
-</div>
+<img src="GoFish_fullimage_deck.jpg" class="full-width-img" alt="Deck image">
+
 
 
 ## <a id="game"></a>
 # Site under construction
 Lorem ipsum dolor sit amet...
 
-<div class="hero-wrapper">
-  <img class="hero-img" src="GoFish_fullimage-_wave.jpg" alt="Wave image">
-</div>
+
+<img src="GoFish_fullimage-_wave_.jpg" class="full-width-img" alt="Deck image">
 
 
 
