@@ -4,11 +4,10 @@ layout: default
 ---
 
 ## <a id="home"></a>
-# AN OCEAN OF FUN
-# FOR EVERYONE!
+# AN OCEAN OF FUN FOR EVERYONE!
 A card game celebrating the diverse marine ecosystems and fish species of Martha's Vineyard
 
-<img src="deck.webp" class="full-bleed" alt="Deck image">
+<img src="hero.webp" class="full-bleed" alt="Hero image">
 
 ## <a id="game"></a>
 # Site under construction
