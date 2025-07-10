@@ -7,7 +7,6 @@ layout: default
 # AN OCEAN OF FUN FOR EVERYONE!
 A card game celebrating the diverse marine ecosystems and fish species of Martha's Vineyard
 
-
 <img src="hero.webp" class="full-bleed" alt="Hero image">
 
 ## <a id="game"></a>

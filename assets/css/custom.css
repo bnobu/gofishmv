@@ -105,3 +105,16 @@ img.full-bleed {
     object-position: center;     /* Center the crop */
   }
 }
+
+@media (max-width: 768px) {
+  img.full-bleed {
+    aspect-ratio: 1 / 1;              /* Make it a square on mobile */
+    width: 100vw;                     /* Full screen width */
+    height: auto;                     /* Let the height adjust for aspect ratio */
+    object-fit: cover;                /* Crop image to fit */
+    object-position: center;          /* Center the cropped area */
+    display: block;
+    max-width: none;
+    margin-left: 0;
+  }
+}
