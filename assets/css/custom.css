@@ -92,3 +92,22 @@ img.full-bleed {
   object-position: center;
 }
 
+@media (max-width: 768px) {
+  .hero-wrapper {
+    width: 100vw;              /* Full screen width */
+    height: auto;
+    overflow: hidden;          /* Crop the sides */
+    display: flex;
+    justify-content: center;   /* Center the image inside */
+  }
+
+  .hero-img {
+    width: auto;
+    height: 100%;
+    min-height: 300px;         /* Optional: enforce some height */
+    aspect-ratio: 1 / 1.2;     /* Optional: portrait-ish shape */
+    object-fit: cover;         /* Crop sides */
+    object-position: center;   /* Center the visible part */
+    display: block;
+  }
+}
