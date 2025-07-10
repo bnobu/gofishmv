@@ -4,13 +4,12 @@
     <meta charset="UTF-8">
 
     {% seo %}
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#ffffff">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}"> <!-- your custom CSS -->
+    <meta name="description" content="A card game celebrating the diverse marine ecosystems and fish species of Martha's Vineyard">
     {% include head-custom.html %}
   </head>
   <body>
@@ -18,7 +17,6 @@
 
     <header class="page-header" role="banner">
       <nav class="site-nav">
-        <p>GO FISH! MV</p>
         <a href="#home">HOME</a>
         <a href="#game">GAME</a>
         <a href="#merch">MERCH</a>
