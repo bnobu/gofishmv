@@ -26,6 +26,6 @@ Lorem ipsum dolor sit amet...
 # Contact us
 Find us at the [Chilmark Flea](https://www.facebook.com/chilmarkflea) every Saturday this summer.
 
-All products are also available on our Etsy shop. 
+All products are also available on our [Etsy shop](https://www.etsy.com/shop/GoFishMV). 
 
 DM us through our [Instagram](https://www.instagram.com/gofishmv).
