@@ -19,6 +19,7 @@ Under construction
 ## <a id="shop"></a>
 # Shop
 All products are available on our [Etsy shop](https://www.etsy.com/shop/GoFishMV). 
+
 ---
 
 ## <a id="contact"></a>
